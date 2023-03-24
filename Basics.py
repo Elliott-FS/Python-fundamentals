@@ -8,4 +8,6 @@ test_var = 45
 
 print(test_var)
 
+Tup1 = (1,2,3)
 
+print(Tup1)

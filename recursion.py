@@ -1,5 +1,6 @@
-#Basic recursive function example
-
+# Basic recursive function example
+# Create a function that takes in an even number and prints 
+# all even numbers before it. 
 
 def EvenNums(num):
     print(num)
