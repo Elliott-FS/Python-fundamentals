@@ -19,6 +19,8 @@ class ElectricGuitar(Guitar):
     def __init__(self):
         super().__init__()
         self.n_strings = 8
+        self.colour = ("#000000", "#ffffff")
+       
         # super function says hey access highest level
         # __init__ method. While def __init__(self): says
         # we want to define a new attribute for this child
@@ -26,5 +28,5 @@ class ElectricGuitar(Guitar):
 
 my_guitar = ElectricGuitar()
 
-print('child class strings', my_guitar.n_strings)
-print('parent class strings', Guitar().n_strings)
+print(my_guitar.playLouder())
+print(Guitar().n_strings)
